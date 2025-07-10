@@ -1,0 +1,35 @@
+# Compiler files
+cache/
+out/
+lib/
+
+# VS Code Files
+.vscode/
+
+# SO Files
+.DS_Store
+
+# Temp and Swap files
+*.swp
+*.tmp
+
+# Node.js (case you use some lib npm)
+node_modules/
+
+# Test coverage
+coverage/
+
+# Ignores development broadcast logs
+!/broadcast
+/broadcast/*/31337/
+/broadcast/**/dry-run/
+
+# Docs
+docs/
+
+# Logs
+*.logs
+
+# Dotenv file
+.env
+.env.*
