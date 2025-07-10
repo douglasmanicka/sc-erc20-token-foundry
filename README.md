@@ -1,6 +1,6 @@
 # Smart Contract ERC20 Token - Foundry Project
 
-This is an study project of an ERC20 smart contract built with [Foundry](https://book.getfoundry.sh/). It was created for learning purposes, with a focus on clean architecture, automated testing, and smart contract security fundamentals.
+This is an study project of an ERC20 smart contract built with [Foundry](https://book.getfoundry.sh/). It was created for learning purposes, with a focus on clean architecture, automated testing, and Smart Contracts development and auditing fundamentals.
 
 ---
 
@@ -40,8 +40,8 @@ forge build
 
 # Run tests
 forge test -vv
-
-#---------------------------------------------------------------------------------------------------------------#
+````
+---
 
 ## More about Foundry
 
@@ -64,7 +64,7 @@ https://book.getfoundry.sh/
 
 ```shell
 $ forge build
-````
+```
 
 ### Test
 
@@ -113,7 +113,7 @@ $ cast --help
 ---
 
 🧠 Author
-Developed by Douglas Manicka as part of a personal study on Smart Contract security and development.
+Developed by Douglas Manicka as part of the Smart Contracts development and auditing study.
 
 📜 License
 MIT
