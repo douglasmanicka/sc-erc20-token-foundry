@@ -1,4 +1,49 @@
-## Foundry
+# Smart Contract ERC20 Token - Foundry Project
+
+This is an study project of an ERC20 smart contract built with [Foundry](https://book.getfoundry.sh/). It was created for learning purposes, with a focus on clean architecture, automated testing, and smart contract security fundamentals.
+
+---
+
+## 📦 Technologies used
+
+- Solidity ^0.8.x
+- Foundry (Forge + Cast)
+- VSCode
+- Git
+
+---
+
+## 🎯 Objectives
+
+- Create a simple and functional ERC20 token
+- Write automated tests using Foundry
+- Explore functions like `mint`, `transfer`, `approve`, and `transferFrom`
+- Practice building a secure and auditable project structure
+
+---
+
+## 🚀 Running locally
+
+> Prerequisites: [Foundry installed](https://book.getfoundry.sh/getting-started/installation)
+
+````bash
+# Clone the repository
+git clone https://github.com/your-username/sc-erc20-token-foundry.git
+cd sc-erc20-token-foundry
+
+
+# Install dependencies
+forge install
+
+# Compile the contract
+forge build
+
+# Run tests
+forge test -vv
+
+#---------------------------------------------------------------------------------------------------------------#
+
+## More about Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
@@ -19,7 +64,7 @@ https://book.getfoundry.sh/
 
 ```shell
 $ forge build
-```
+````
 
 ### Test
 
@@ -64,3 +109,11 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+---
+
+🧠 Author
+Developed by Douglas Manicka as part of a personal study on Smart Contract security and development.
+
+📜 License
+MIT
